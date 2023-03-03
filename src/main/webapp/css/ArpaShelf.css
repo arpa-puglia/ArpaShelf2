@@ -1,0 +1,109 @@
+BODY {
+	font-family: calibri;
+}
+
+#alert, #error {
+	font-size: 80%;
+}
+
+LABEL.error {
+	margin-left: 5px;
+	color: #FF6666;
+	-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color:#FFEEEE;
+	border:1px solid #FF6666;
+	padding: 0px 2px;
+	position: absolute;
+	top: 0px;
+	left: 300px;
+}
+
+.ui-widget {
+	font-size: 80%;
+}
+
+.shelf-container {
+	width: 99%;
+	height: 700px;
+	padding: 5px;	
+}
+
+.shelf-title {
+	width: 100%;
+	font-weight: bold;
+}
+
+.shelf-admin-tab-title {
+	font-weight: bold;
+}
+
+.etichetta {
+	float:left;
+}
+.campo {
+	margin-left:130px;
+	display:block;
+}
+.campo_container {
+	position:relative;
+}
+
+/* dataTables */
+.dataTables_info {
+	float:left;
+}
+.dataTables_length {
+	float:left;
+}
+.dataTables_paginate {
+	float:right;
+}
+.dataTables_filter {
+	display:none;
+	float:right;
+}
+.dataTables_paginate .ui-button {
+    margin-right: -0.1em !important;
+}
+.paging_full_numbers .ui-button {
+    cursor: pointer;
+    margin: 0;
+    padding: 2px 6px;
+}
+#tableCercaCartelleAccount TBODY {
+	border-left: 1px solid #AAA;
+	border-right: 1px solid #AAA;
+}
+.DataTables_sort_wrapper {
+    padding-right: 20px;
+    position: relative;
+}
+.DataTables_sort_wrapper span {
+    margin-top: -8px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+TR.odd {
+    background-color: #FFFFFF;
+}
+TR.even {
+    background-color: #EBEBEB;
+}
+#tableCercaCartelleAccount {
+	width: 100%;
+	border-left: 1px solid #AAA;
+	border-right: 1px solid #AAA;
+}
+#tableCercaCartelleAccount thead th:first-child {
+	border-left: 1px solid #AAA;
+}
+#tableCercaCartelleAccount thead th:last-child {
+	border-right: 1px solid #AAA;
+}
+/* ArpaMIP */
+#iframeVisualizzaVerificheUtente {
+	height: 600px;
+}
